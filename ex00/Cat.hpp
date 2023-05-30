@@ -1,0 +1,27 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Cat.hpp                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: eightimerkan <eightimerkan@student.42.f    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/05/28 21:10:25 by eightimerka       #+#    #+#             */
+/*   Updated: 2023/05/28 21:13:16 by eightimerka      ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef CAT_HPP
+# define CAT_HPP
+
+#include "Animal.hpp"
+
+class Cat : public Animal
+{
+    public:
+        Cat();
+        ~Cat();
+
+        void   makeSound() const;
+};
+
+#endif 
